@@ -1,5 +1,6 @@
-CREATE DATABASE programacion;
-CREATE USER 'programacion'@'localhost' IDENTIFIED BY 'programacion';
+CREATE DATABASE IF NOT EXISTS programacion;
+CREATE USER IF NOT EXISTS 'programacion'@'localhost' IDENTIFIED BY 'programacion';
+ALTER USER 'programacion'@'localhost' IDENTIFIED BY 'programacion';
 GRANT ALL PRIVILEGES ON programacion.* TO 'programacion'@'localhost';
 FLUSH PRIVILEGES;
 
