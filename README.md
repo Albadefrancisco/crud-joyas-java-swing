@@ -10,14 +10,14 @@ Aplicación de escritorio para gestionar un catálogo de joyas: alta, edición, 
 - Validación de campos y control de duplicados
 
 ## Tecnologías
-Java · Swing · JDBC · MySQL · HikariCP · Maven · Patrón DAO
+Java | Swing | JDBC | MySQL | HikariCP | Maven | Patrón DAO
 
 ## Estructura
 - `modelo`: clase `Joya`
 - `dao` / `impl`: acceso a datos (interfaz e implementación JDBC)
 - `bd`: conexión a la base de datos con pool HikariCP
 - `vistacontrolador`: interfaz gráfica
-- `controlador`: clase `Principal` (punto de entrada)
+- `controlador`: clase `Principal` 
 
 ## Cómo ejecutarlo
 Requisitos: Java 17 o superior, MySQL y Maven.
